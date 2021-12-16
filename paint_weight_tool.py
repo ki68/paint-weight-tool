@@ -2,6 +2,9 @@
 - 21.12.17 by more water
 - ver 1.0
 
+sample :
+https://youtu.be/bEj976O_f94
+
 '''
 
 import maya.cmds as mc
