@@ -55,8 +55,8 @@ def Set_BlendTargetWeight(mesh, bl, paintTargetL, val):
 #=======================================================#
 # ex)
 # first, select mesh.
-# and select input blendshape's target attributes in channel box
-# execute Set_SelectTargetAttrs_BlendShapeWeight(0)
+# and select input blendshape's target attributes in channelBox
+# and execute Set_SelectTargetAttrs_BlendShapeWeight(0)
 
 def Set_SelectTargetAttrs_BlendShapeWeight(val):
 
