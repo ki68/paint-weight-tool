@@ -17,14 +17,13 @@ from sys import stdout
 
 def Set_BlendTargetWeight(mesh, bl, paintTargetL, val):
 
+    # paintTargetL - Targets to set user weight value         
+    # val - user weight value   
+
     print ("Set_BlendTargetWeight execute..")
     print (' targets number : '+ str(len(paintTargetL)))
     print (mesh, bl, paintTargetL, val)
-
-    # paintTargetL - Targets to set user weight value     
-    
-    # val - user weight value     
-    
+      
     # Get Targets Name and weight[index] Name 
     allTargetL=mel.eval('aliasAttr -q "'+bl+'";') 
     print (allTargetL)
